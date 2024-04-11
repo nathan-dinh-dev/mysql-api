@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.4",
+    "nodemon": "^3.1.0"
+  },
+  "type": "module",
+  "name": "mysql-api",
+  "description": "MySQL-Api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "Nathan Dinh",
+  "license": "ISC"
+}
