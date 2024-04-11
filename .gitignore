@@ -1,1 +1,5 @@
+# Ignore pushing to github
+
 node_modules
+
+.env
