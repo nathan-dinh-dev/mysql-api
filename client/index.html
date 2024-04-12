@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MySQL Web App</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <main>
+      <form action="post">
+        <div class="crud-block">
+          <div class="input-container">
+            <label for="bookID">BookID</label>
+            <input type="number" id="bookID" required />
+          </div>
+          <div class="input-container">
+            <label for="authorID">AuthorID</label>
+            <input type="number" id="authorID" required />
+          </div>
+          <div class="input-container">
+            <label for="title">Title</label>
+            <input type="text" id="title" required />
+          </div>
+          <div class="input-container">
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" required />
+          </div>
+          <button>Add Book</button>
+        </div>
+      </form>
+
+      <form action="post">
+        <div class="crud-block">
+          <div class="input-container">
+            <label for="authorID">AuthorID</label>
+            <input type="number" id="authorID" required />
+          </div>
+          <div class="input-container">
+            <label for="authorName">AuthorName</label>
+            <input type="text" id="authorName" required />
+          </div>
+          <div class="input-container">
+            <label for="country">Country</label>
+            <input type="text" id="country" required />
+          </div>
+
+          <button>Add Author</button>
+        </div>
+      </form>
+    </main>
+
+    <section>
+      <table id="book">
+        <thead>
+          <th>BookID</th>
+          <th>AuthorID</th>
+          <th>Title</th>
+          <th>Genre</th>
+        </thead>
+      </table>
+
+      <table id="author">
+        <thead>
+          <th>AuthorID</th>
+          <th>AuthorName</th>
+          <th>Country</th>
+        </thead>
+      </table>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
