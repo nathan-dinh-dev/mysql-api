@@ -45,6 +45,7 @@ class DbService {
       return results;
     } catch (error) {
       console.log(error);
+      return error;
     }
   }
 
@@ -60,6 +61,7 @@ class DbService {
       return results;
     } catch (error) {
       console.log(error);
+      return error;
     }
   }
 
@@ -78,6 +80,7 @@ class DbService {
       return results;
     } catch (error) {
       console.log(error);
+      return error;
     }
   }
 
@@ -103,6 +106,7 @@ class DbService {
       return results;
     } catch (error) {
       console.log(error);
+      return error;
     }
   }
 
@@ -122,6 +126,7 @@ class DbService {
       return results;
     } catch (error) {
       console.log(error);
+      return error;
     }
   }
 
@@ -139,6 +144,7 @@ class DbService {
       return results;
     } catch (error) {
       console.log(error);
+      return error;
     }
   }
 }
