@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: "http://localhost:5000",
+  origin: "https://mysql-api-wb0w.onrender.com",
   optionsSuccessStatus: 200,
 };
 
